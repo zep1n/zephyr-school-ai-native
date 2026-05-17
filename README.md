@@ -1,20 +1,55 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI 教学创新中心 (AI Education Innovation Center)
 
-# Run and deploy your AI Studio app
+> **AI 原生思维 · 沉浸式教育全栈解决方案**
+> 
+> 致力于将工业级 AI 协作标准引入校园，培养具备“全球竞争力”的未来创新人才。
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/6ca475df-dd32-4305-9f7d-0f4dae551560
+## 🌟 项目愿景
 
-## Run Locally
+在 AI 爆发的时代，教育的重心正在从“知识传授”转向“思维重塑”。本项目旨在帮助全球学校构建 **AI 原生教学体系**，让学生从 AI 的“被动使用者”进化为“主动构建者”。
 
-**Prerequisites:**  Node.js
+## 🚀 核心优势 (Core Highlights)
 
+### 1. Leader-Builder 协同架构
+独创的实战模型，模拟真实工业界的 AI Agent 协作流。学生作为 Leader 指挥 AI Builder 集群，在 7 天内完成从创意构思到生产级原型的突破。
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 2. 国际权威背书
+课程体系接轨国际标准，为学员提供极具含金量的背景增信：
+*   **Google AI** 专业教育认证
+*   **美国 Khan Academy** AI 官方证书
+*   **英国 CREST/STEM** 项目认证
+
+### 3. AI 导师实时赋能
+利用 Multi-Agent 技术构建的 24/7 实时导师系统，解决编程与技术实现的门槛，确保每位学生都能专注于创意与逻辑，实现真正的个性化学习。
+
+## 🛠️ 教学模块
+
+*   **超级个体培养**：通过 AI 工具链整合，提升单兵作战能力。
+*   **Agent 协作实验室**：学习如何通过提示词工程（Prompt Engineering）编排多智能体任务。
+*   **数字档案与展示**：为每位学员生成独一无二的数字能力画像，记录成长轨迹。
+
+## 📱 适配性
+
+项目网站已完成全终端适配，为用户提供一致的沉浸式视觉体验：
+*   **Desktop**: 极致的玻璃拟态与动态流光效果。
+*   **Tablet/Mobile**: 优化的排版与触摸交互，适应碎片化展示场景。
+
+## 🤝 合作伙伴评价
+
+> “该项目成功将工业级 AI 协作标准引入校园，重塑了师生的数字化素养，是教育创新的极佳样板。” —— **全球教育伙伴**
+
+---
+
+## 📞 联系我们
+
+如果您对 AI 教学创新感兴趣，或希望为您的学校定制专属的沉浸式营地方案，欢迎联系：
+
+*   **项目负责人**: AI 教学创新营教研组
+*   **官网**: [点击进入 AI 教学空间](https://ais-pre-3y62c2b3fk4hee7swdaym2-67913376663.asia-east1.run.app)
+*   **定制沟通**: 请点击网站 Hero 页的“获取定制教学方案”按钮
+
+---
+
+© 2026 AI Education Innovation Center. Crafted with AI Native Thinking.
