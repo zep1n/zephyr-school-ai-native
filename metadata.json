@@ -1,0 +1,8 @@
+{
+  "name": "AI 原生教育创新方案",
+  "description": "面向学校的 AI 原生思维沉浸式课程，赋能未来教育转型。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
