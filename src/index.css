@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Ensure only one scrollbar */
+html {
+  overflow-y: scroll; /* Force one scrollbar to avoid layout jump */
+}
+
+body {
+  overflow-y: visible; 
+}
 
 @font-face {
     font-family: "Helvetica Regular";
@@ -21,15 +41,20 @@
   }
   
   .text-glow {
-    text-shadow: 0 0 20px rgba(255, 107, 0, 0.2);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
   }
+  
+  .text-balance {
+    text-wrap: balance;
+  }
+
   .liquid-glass {
-    background: rgba(255, 255, 255, 0.01);
-    background-blend-mode: luminosity;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background-blend-mode: overlay;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: none;
-    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.05), 0 20px 40px -15px rgba(0, 0, 0, 0.4);
     position: relative;
     overflow: hidden;
   }
@@ -51,28 +76,28 @@
   }
 
   .custom-scrollbar::-webkit-scrollbar {
-    height: 8px;
+    height: 10px;
   }
   .custom-scrollbar::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.03);
     border-radius: 20px;
-    margin-inline: 10vw;
+    margin-inline: 2rem;
   }
   .custom-scrollbar::-webkit-scrollbar-thumb {
     background: linear-gradient(to right, 
-      rgba(255, 255, 255, 0.02) 0%, 
-      rgba(255, 255, 255, 0.15) 50%, 
-      rgba(255, 255, 255, 0.02) 100%
+      rgba(255, 255, 255, 0.1) 0%, 
+      rgba(255, 255, 255, 0.4) 50%, 
+      rgba(255, 255, 255, 0.1) 100%
     );
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
   }
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(to right, 
-      rgba(255, 255, 255, 0.05) 0%, 
-      rgba(255, 255, 255, 0.25) 50%, 
-      rgba(255, 255, 255, 0.05) 100%
+      rgba(255, 255, 255, 0.2) 0%, 
+      rgba(255, 255, 255, 0.6) 50%, 
+      rgba(255, 255, 255, 0.2) 100%
     );
   }
 }
